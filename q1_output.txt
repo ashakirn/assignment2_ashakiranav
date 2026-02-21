@@ -1,0 +1,12 @@
+SYSTEM INFORMATION DISPLAY
+
+Username      : ashakirana
+Hostname      : kali
+Date & Time   : Saturday 21 February 2026 08:26:22 AM IST
+OS            : Linux
+Current Dir   : /home/ashakirana/bash_assignment
+Home Dir      : /home/ashakirana
+Users Online  : 1
+Uptime        :  08:26:22 up 27 min,  1 user,  load average: 0.25, 0.26, 0.16
+Disk Usage (/) : /dev/sda3        18G   17G  235M  99% /
+Memory Usage   : 1.6Gi/3.8Gi
