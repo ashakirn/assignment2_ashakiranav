@@ -1,0 +1,141 @@
+Script started on 2026-02-21 20:16:37+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="113" LINES="25"]
+                                                                                                                 ]0;ashakirana@kali: ~/bash_assignment[0m[27m[24m[J[32m┌──([1m[32m[34mashakirana㉿kali[0m[34m[32m)-[[1m[32m[39m~/bash_assignment[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h.[36m.[39m[36m.[39m[38;5;244m/q1_system_info.sh[39m[18D[36m.[36m/[39m[4m[32m.[4m[32m/[24m[39m[4m[32m.[4m[32m/[4m[32mq[24m[39m[24m[39m[1m.[24m[39m[1m/[24m[39m[1mq[0m[1mq[39m[1m2[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [15D[1m2[1m_[0m[1m_[1mf[0m[1mf[1mi[0m[1mi[1ml[0m[1ml[1me[0m[1me[1m_[0m[1m_[1mm[0m[1mm[1ma[0m[1ma[1mn[0m[1mn[1ma[0m[1ma[1mg[0m[1mg[1me[0m[1me[1mr[0m[1mr[1m.[0m[1m.[1ms[0m[1ms[1mh[0m[20D[0m[36m.[0m[36m/[0m[36mq[0m[36m2[0m[36m_[0m[36mf[0m[36mi[0m[36ml[0m[36me[0m[36m_[0m[36mm[0m[36ma[0m[36mn[0m[36ma[0m[36mg[0m[36me[0m[36mr[0m[36m.[0m[36ms[0m[36mh[39m[?1l>[?2004l
+
+file and directory manager 
+1.List files in current directory
+2.Create a new directory
+3.Create a new file
+4.Delete a file
+5.Rename a file
+6.Search for a file
+7.Count files and directories
+8.Exit
+
+Choose an option : 1
+total 144K
+-rw-rw-r-- 1 ashakirana ashakirana 125K Feb 21 12:43 'WhatsApp Image 2026-02-21 at 12.42.14 PM.jpeg'
+-rw-rw-r-- 1 ashakirana ashakirana  420 Feb 21 08:26  q1_output.txt
+-rwxrwxrw- 1 ashakirana ashakirana 1.2K Feb 21 08:17  q1_system_info.sh
+-rwxrwxrw- 1 ashakirana ashakirana 2.3K Feb 21 19:55  q2_file_manager.sh
+-rw-rw-r-- 1 ashakirana ashakirana    0 Feb 21 20:16  q2_output.txt
+drwxrwxr-x 2 ashakirana ashakirana 4.0K Feb 21 20:10  test
+
+file and directory manager 
+1.List files in current directory
+2.Create a new directory
+3.Create a new file
+4.Delete a file
+5.Rename a file
+6.Search for a file
+7.Count files and directories
+8.Exit
+
+Choose an option : 2
+Enter name for new folder: test
+mkdir: cannot create directory 'test': File exists
+Folder created
+
+file and directory manager 
+1.List files in current directory
+2.Create a new directory
+3.Create a new file
+4.Delete a file
+5.Rename a file
+6.Search for a file
+7.Count files and directories
+8.Exit
+
+Choose an option : 3
+Enter name for new file: sample 
+File created
+
+file and directory manager 
+1.List files in current directory
+2.Create a new directory
+3.Create a new file
+4.Delete a file
+5.Rename a file
+6.Search for a file
+7.Count files and directories
+8.Exit
+
+Choose an option : s 4
+Which file do you want to delete? same ple
+Are you sure? (y/n): y
+File deleted.
+
+file and directory manager 
+1.List files in current directory
+2.Create a new directory
+3.Create a new file
+4.Delete a file
+5.Rename a file
+6.Search for a file
+7.Count files and directories
+8.Exit
+
+Choose an option : 5 3
+Enter name for new file: test0
+File created
+
+file and directory manager 
+1.List files in current directory
+2.Create a new directory
+3.Create a new file
+4.Delete a file
+5.Rename a file
+6.Search for a file
+7.Count files and directories
+8.Exit
+
+Choose an option : 5
+Current file name: test2 0
+New file name: test1
+Renamed successfully.
+
+file and directory manager 
+1.List files in current directory
+2.Create a new directory
+3.Create a new file
+4.Delete a file
+5.Rename a file
+6.Search for a file
+7.Count files and directories
+8.Exit
+
+Choose an option : 6
+What are you looking for?test1
+./test1
+
+file and directory manager 
+1.List files in current directory
+2.Create a new directory
+3.Create a new file
+4.Delete a file
+5.Rename a file
+6.Search for a file
+7.Count files and directories
+8.Exit
+
+Choose an option : 7
+Total Files: 6
+Total Folders: 1
+
+file and directory manager 
+1.List files in current directory
+2.Create a new directory
+3.Create a new file
+4.Delete a file
+5.Rename a file
+6.Search for a file
+7.Count files and directories
+8.Exit
+
+Choose an option : 8
+Closing program
+                                                                                                                 ]0;ashakirana@kali: ~/bash_assignment
+[0m[27m[24m[J[32m┌──([1m[32m[34mashakirana㉿kali[0m[34m[32m)-[[1m[32m[39m~/bash_assignment[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004he[4me[24m[4me[24m[38;5;244mcho $HOME[39m[9D[4me[39m[4mx[24m[39m [39m [39m [39m [39m [39m [39m [39m [8D[24m[36me[24m[36mx[39m[38;5;244miftool -DateTimeOriginal -CreateDate -ModifyDate "WhatsApp Image 2026-02-18 at 8.34.02 AM.jpeg"[39m[95D[36me[36mx[36mi[39m[39m[4me[39m[4mx[39m[4mi[24m[4mi[39m[4mt[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [93D[24m[36me[24m[36mx[24m[36mi[24m[36mt[39m[?1l>[?2004l
+
+Script done on 2026-02-21 20:18:30+05:30 [COMMAND_EXIT_CODE="0"]
