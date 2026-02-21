@@ -13,6 +13,10 @@ HOME_DIR="$HOME"             # Home directory
 USERS_ONLINE=$(who | wc -l)  # Number of users currently logged in
 UPTIME_INFO=$(uptime)        # System uptime
 
+# Bonus: disk usage and memory usage
+DISK_USAGE=$(df -h / | tail -1)                         # Disk usage of root filesystem
+MEMORY_USAGE=$(free -h | awk 'NR==2 {print $3 "/" $2}') # Used/total memory
+
 # Display the information
 echo "SYSTEM INFORMATION DISPLAY"
 echo
@@ -24,3 +28,5 @@ echo "Current Dir   : $CURRENT_DIR"
 echo "Home Dir      : $HOME_DIR"
 echo "Users Online  : $USERS_ONLINE"
 echo "Uptime        : $UPTIME_INFO"
+echo "Disk Usage (/) : $DISK_USAGE"
+echo "Memory Usage   : $MEMORY_USAGE"
