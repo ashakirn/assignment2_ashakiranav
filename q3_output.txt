@@ -1,4 +1,4 @@
---- RESULTS FOR access.log ---
+--- RESULTS FOR q3_access.log ---
 Total Entries: 7
 -e 
 IPs found:
