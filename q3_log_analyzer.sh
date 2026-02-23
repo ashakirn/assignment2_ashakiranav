@@ -4,7 +4,7 @@
 # Question Log File Analyzer
 # Analyzes the provided log file for security and traffic stats
 
-#  Check if a filename was provided
+# ch Check if a filename was provided
 if [ -z "$1" ]; then
     echo "Usage: ./q3_log_analyzer.sh <logfile>"
     exit 1
