@@ -1,0 +1,40 @@
+┌──(ashakiranav㉿ashakiranav)-[~/Downloads/assignment2_ashakiranav]
+└─$ ./q4_backup.sh
+ BACKUP PROGRAM 
+Enter the folder you want to backup:
+mytest
+Enter where you want to save the backup:
+backup
+Destination not found. Creating it...
+Choose backup type:
+1 - Normal Copy
+2 - Compressed (tar.gz)
+1
+Starting backup...
+Source folder: mytest
+Backup location: backup
+Backup successful!
+File name: backup_20260223_124348
+Stored at: backup
+Backup size: 4.0K
+Time taken: 0 seconds
+                                                                                                                                                           
+┌──(ashakiranav㉿ashakiranav)-[~/Downloads/assignment2_ashakiranav]
+└─$ ./q4_backup.sh
+ BACKUP PROGRAM 
+Enter the folder you want to backup:
+mytest
+Enter where you want to save the backup:
+backup
+Choose backup type:
+1 - Normal Copy
+2 - Compressed (tar.gz)
+2
+Starting backup...
+Source folder: mytest
+Backup location: backup
+Backup successful!
+File name: backup_20260223_124407.tar.gz
+Stored at: backup
+Backup size: 4.0K
+Time taken: 0 seconds
